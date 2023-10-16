@@ -1,0 +1,4 @@
+app_name = snap_reactor
+allow_warnings = false
+allow_unused = false
+allow_override = false
