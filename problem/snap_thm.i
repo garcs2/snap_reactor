@@ -22,17 +22,13 @@ tot_power = 2000 # W
   rdg_slope_reconstruction = minmod
   scaling_factor_1phase = '1 1e-2 1e-4'
   closures = thm_closures
-  fp = he
+  fp = nak
 []
 
 [FluidProperties]
-  [he]
-    type = IdealGasFluidProperties
-    molar_mass = 4e-3
-    gamma = 1.67
-    k = 0.2556
-    mu = 3.22639e-5
-  []
+  [nak]
+    type = NaKFluidProperties
+    weight_fraction_K = 0.778
 []
 
 [Closures]
