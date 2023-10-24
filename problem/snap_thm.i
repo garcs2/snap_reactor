@@ -1,6 +1,6 @@
-T_in = 300. # K
-m_dot_in = 1e-2 # kg/s
-press = 10e5 # Pa
+T_in = 870. # K, 2 sig figs for 1100F
+m_dot_in = 6.15 # kg/s, 3 sig figs for 48800 lb/hr
+press = 267000.1 # Pa
 
 # core parameters
 core_length = 1. # m
